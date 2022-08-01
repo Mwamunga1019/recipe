@@ -1,0 +1,179 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(127, 250, 110);
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+
+.header {
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-img img {
+    width: 10vh;
+    align-self: center;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: Playball;
+    src: url(./fonts/Playball-Regular.ttf);
+}
+
+.main-header {
+    color: white;
+    font-family: Playball;
+    src: url(./fonts/Playball-Regular.ttf);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.h2-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+}
+
+a:hover {
+    color: hotpink;
+    
+    
+}
+
+.food-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: large;
+    
+}
+
+img {
+    height: 25vh;
+}
+
+@font-face {
+    font-family: Kaushan;
+    src: url(./fonts/KaushanScript-Regular.ttf);
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: Kaushan;
+    src: url(./fonts/KaushanScript-Regular.ttf);
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+}
+
+.content img {
+    height: 50vh;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.content p {
+    font-family: Kaushan;
+    src: url(./fonts/KaushanScript-Regular.ttf);
+    font-size: large;
+    font-weight: bold;
+}
+
+.recipes-header {
+    font-family: Playball;
+    src: url(./fonts/Playball-Regular.ttf);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.process {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    
+}
+
+.instructions p {
+    margin: 4px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.ingredients ul {
+    margin-top: 0;
+}
+
